@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llamaindex-rag"
+version = "0.1.0"
+description = ""
+authors = ["Antoniolorenz01 <antoniogarcia281100@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+llama-index = "^0.11.7"
+gradio = "^4.43.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
